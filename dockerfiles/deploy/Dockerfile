@@ -5,4 +5,4 @@ ENV REFRESHED_AT 2016-03-11
 COPY ./dockerfiles/deploy/. /.
 EXPOSE 80 443 2015
 
-CMD ["/caddy"]
+ENTRYPOINT ["/caddy"]
