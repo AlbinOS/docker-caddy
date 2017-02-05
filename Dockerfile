@@ -11,5 +11,3 @@ COPY build/caddy /caddy
 
 ENTRYPOINT ["/caddy"]
 CMD ["-ca", "https://acme-staging.api.letsencrypt.org/directory"]
-
-ONBUILD COPY ./Caddyfile /
